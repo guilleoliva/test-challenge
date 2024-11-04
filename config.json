@@ -1,0 +1,66 @@
+{
+  "aureum_envs": [
+    {
+      "environment": "dev",
+      "url": "https://www.saucedemo.com/",
+      "api": "https://petstore.swagger.io/",
+      "user_type":{
+            "STANDARD-USER": {
+               "user_name": "standard_user",
+               "password":"secret_sauce"
+            },
+            "LOCKED_OUT-USER":{
+               "user_name":"locked_out_user",
+               "password":"secret_sauce"
+            },
+            "PROBLEM-USER":{
+               "user_name":"problem_user",
+               "password":"secret_sauce"
+            },
+            "PERFORMANCE_GLITCH-USER":{
+               "user_name":"performance_glitch_user",
+               "password":"secret_sauce"
+            },
+            "ERROR-USER":{
+               "user_name":"error_user",
+               "password":"secret_sauce"
+            },
+            "VISUAL-USER":{
+               "user_name":"visual_user",
+               "password":"secret_sauce"
+            }
+         }
+    },
+    {
+      "environment": "qa",
+      "url": "https://www.saucedemo.com/",
+      "api": "https://petstore.swagger.io/",
+      "user_type":{
+            "STANDARD-USER": {
+               "user_name": "standard_user",
+               "password":"secret_sauce"
+            },
+            "LOCKED_OUT-USER":{
+               "user_name":"locked_out_user",
+               "password":"secret_sauce"
+            },
+            "PROBLEM-USER":{
+               "user_name":"problem_user",
+               "password":"secret_sauce"
+            },
+            "PERFORMANCE_GLITCH-USER":{
+               "user_name":"performance_glitch_user",
+               "password":"secret_sauce"
+            },
+            "ERROR-USER":{
+               "user_name":"error_user",
+               "password":"secret_sauce"
+            },
+            "VISUAL-USER":{
+               "user_name":"visual_user",
+               "password":"secret_sauce"
+            }
+         }
+    }
+  ]
+}
